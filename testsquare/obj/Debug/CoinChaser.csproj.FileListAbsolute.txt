@@ -1,0 +1,8 @@
+c:\users\angus\documents\visual studio 2015\Projects\testsquare\testsquare\bin\Debug\testsquare.exe.config
+c:\users\angus\documents\visual studio 2015\Projects\testsquare\testsquare\bin\Debug\testsquare.exe
+c:\users\angus\documents\visual studio 2015\Projects\testsquare\testsquare\bin\Debug\testsquare.pdb
+c:\users\angus\documents\visual studio 2015\Projects\testsquare\testsquare\obj\Debug\CoinChaser.Form1.resources
+c:\users\angus\documents\visual studio 2015\Projects\testsquare\testsquare\obj\Debug\testsquare.Properties.Resources.resources
+c:\users\angus\documents\visual studio 2015\Projects\testsquare\testsquare\obj\Debug\CoinChaser.csproj.GenerateResource.Cache
+c:\users\angus\documents\visual studio 2015\Projects\testsquare\testsquare\obj\Debug\testsquare.exe
+c:\users\angus\documents\visual studio 2015\Projects\testsquare\testsquare\obj\Debug\testsquare.pdb
