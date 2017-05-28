@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CoinChaser.Properties;
 
 namespace CoinChaser
 {
@@ -86,11 +88,21 @@ namespace CoinChaser
 
             if(coinX == playerX && coinY == playerY)
             {
+                
                 NewCoin();
+                System.Media.SoundPlayer coinPlayer = new System.Media.SoundPlayer(Properties.Resources.coin);
+                coinPlayer.Play();
+                coinPlayer.Dispose();
                 score++;
                 lblScore.Text = "Score: " + score;
             }
-
+            else
+            {
+                System.Media.SoundPlayer movePlayer = new System.Media.SoundPlayer(Properties.Resources.move);
+                movePlayer.Play();
+                movePlayer.Dispose();
+            }
+            
             Form1_Paint(this, null);
 
         }
